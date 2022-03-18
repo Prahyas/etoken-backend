@@ -4,7 +4,8 @@
   "info": {
     "singularName": "token",
     "pluralName": "tokens",
-    "displayName": "Token"
+    "displayName": "Token",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

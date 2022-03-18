@@ -4,7 +4,8 @@
   "info": {
     "singularName": "service",
     "pluralName": "services",
-    "displayName": "Service"
+    "displayName": "Service",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,11 @@
   "attributes": {
     "name": {
       "type": "string"
+    },
+    "tokens": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::token.token"
     }
   }
 }

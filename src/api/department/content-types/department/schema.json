@@ -4,7 +4,8 @@
   "info": {
     "singularName": "department",
     "pluralName": "departments",
-    "displayName": "Department"
+    "displayName": "Department",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -24,6 +25,11 @@
     },
     "contact": {
       "type": "integer"
+    },
+    "services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
     }
   }
 }
