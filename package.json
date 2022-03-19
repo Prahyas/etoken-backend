@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "e-token-backend",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -9,8 +9,8 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
+    "@strapi/plugin-documentation": "^4.1.5",
     "@strapi/plugin-i18n": "4.1.5",
     "@strapi/plugin-users-permissions": "4.1.5",
     "@strapi/strapi": "4.1.5",
