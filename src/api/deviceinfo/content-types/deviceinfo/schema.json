@@ -18,6 +18,9 @@
     "message": {
       "type": "text",
       "default": "It's your turn."
+    },
+    "usertoken": {
+      "type": "integer"
     }
   }
 }
