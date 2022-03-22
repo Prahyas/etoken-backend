@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "deviceinfos",
+  "info": {
+    "singularName": "deviceinfo",
+    "pluralName": "deviceinfos",
+    "displayName": "Deviceinfo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "deviceid": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text",
+      "default": "It's your turn."
+    }
+  }
+}

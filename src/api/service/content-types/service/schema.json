@@ -8,17 +8,24 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
     "name": {
       "type": "string"
     },
+    "department": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::department.department",
+      "inversedBy": "services"
+    },
     "tokens": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::token.token"
+      "target": "api::token.token",
+      "mappedBy": "service"
     }
   }
 }

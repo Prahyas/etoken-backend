@@ -8,12 +8,23 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
-    "totalnumber": {
+    "totaltokens": {
       "type": "integer"
+    },
+    "singletoken": {
+      "type": "integer",
+      "default": 1,
+      "required": false
+    },
+    "service": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::service.service",
+      "inversedBy": "tokens"
     }
   }
 }
