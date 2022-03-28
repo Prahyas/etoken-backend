@@ -15,16 +15,22 @@
     "name": {
       "type": "string"
     },
+    "tokens": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::token.token",
+      "mappedBy": "service"
+    },
     "department": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::department.department",
       "inversedBy": "services"
     },
-    "tokens": {
+    "deviceinfos": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::token.token",
+      "target": "api::deviceinfo.deviceinfo",
       "mappedBy": "service"
     }
   }

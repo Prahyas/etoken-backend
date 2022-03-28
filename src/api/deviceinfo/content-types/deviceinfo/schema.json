@@ -15,12 +15,17 @@
     "deviceid": {
       "type": "string"
     },
-    "message": {
-      "type": "text",
-      "default": "It's your turn."
+    "fcmtoken": {
+      "type": "string"
     },
     "usertoken": {
       "type": "integer"
+    },
+    "service": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::service.service",
+      "inversedBy": "deviceinfos"
     }
   }
 }
