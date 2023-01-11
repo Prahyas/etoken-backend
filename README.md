@@ -1,3 +1,6 @@
+# Backend for E-Token system
+This system was created using strapi.js with all the required data fields and data relationship. Added CRUD functionatlity and simple authorization to prevent the access of the data. PostgreSQL is used as the database.
+
 # 🚀 Getting started with Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
